@@ -90,7 +90,7 @@ def all_holidays_with_bbq(holiday_hash)
       value.each do |supply|
         if supply == "BBQ"
           puts "#{supply}"
-          answer.push(holiday)
+          answer.push(attribute)
           
   end
 end
