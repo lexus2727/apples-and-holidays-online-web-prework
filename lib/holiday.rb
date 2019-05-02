@@ -88,7 +88,7 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |season, data|
     data.each do |attribute, value|
       value.each do |supply|
-        if attribute == "BBQ"
+        if supply == "BBQ"
           puts "#{supply}"
           answer.push(holiday)
           
